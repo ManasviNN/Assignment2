@@ -1,11 +1,59 @@
-  <%- include partials/header.ejs %>
-  <%- include partials/main_nav.ejs %>
-  <%- include partials/footer.ejs %>
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
 
-  <h1>
-    <%= title %>
-  </h1>
-  <p>Welcome to <%= title %>
-  </p>
+<div class="container mt-5 mb-5">
+  
+      <h1 class="display-4 fw-bold mb-3 text-center">Welcome to Manasvi's Portfolio!</h1>
+      <p class="mb-4 text-center">
+        Hi there! I am a Networking and IT Security student at Ontario Tech University. Explore my background, check out my technical projects, or get in touch below.
+      </p>
 
- 
+      </div>
+   <div class="row g-4">
+   <a href="/about" class="d-block text-decoration-none h-100 center">  
+    <div class="col-md-4">
+      <div class="card h-100">
+        <div class="card-body py-6 px-4">
+          <h5 class="text-center fw-bold">About</h5>
+
+          <h6 class="text-center">Head to this page to learn more about me and my skills!
+
+          </h6>
+            </a>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+       <a href="/projects" class="d-block text-decoration-none h-100 center"> 
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="text-center fw-bold">Projects</h5>
+          <h6 class="text-center">Head to this page to take a look at some of the projects I have made!</h6>
+        </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+    
+          <a href="/contact" class="d-block text-decoration-none h-100 center">  
+          <div class="card h-100">
+        <div class="card-body">
+          <h5 class="text-center fw-bold">Contact</h5>
+          <h6 class="text-center">Head to this page if you have and questions or comments to send over!</h6>
+
+          </a>
+            
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</main>
+
+<%- include partials/footer.ejs %>
