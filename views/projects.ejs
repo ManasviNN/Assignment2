@@ -1,0 +1,66 @@
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+
+
+  <main class="container mt-5 mb-5">
+  <div class="text-center mb-5">
+    <h1 class="display-5 fw-bold"><%= title %></h1>
+    <p class="text-center">Here are some of the projects I have worked on!</p>
+  </div>
+
+
+  <div class="row g-4">
+   
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="text-center fw-bold">Segmented Remote Access VPN</h5>
+          <h6 class="text-center">pfSense, WireGuard, VLANs, VirtualBox, GNS3</h6>
+            <ul>
+            <li>Designed and implemented a segmented remote-access VPN using pfSense, WireGuard, VLANs, and firewall policies for a simulated 20-50 employee organization </li>
+            <li>Configured role-based network segmentation across Sales, Finance, IT, and Server networks, restricting VPN users to authorized resources</li>
+            <li>Troubleshot NAT, port forwarding, firewall rules, and network connectivity, validating secure remote access and segmentation through network testing, and traffic analysis</li>
+            </ul>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="text-center fw-bold">Cisco Enterprise Network Case Study</h5>
+          <h6 class="text-center">Packet Tracer</h6>
+        <ul>
+        <li>Designed and configured a multi-site enterprise network connecting Chicago, Toronto, Vancouver, and Mexico using Cisco routers, switches, VLANs, and WAN connections</li>
+        <li>Implemented VLAN segmentation, 802.1Q trunking, inter-VLAN routing, SVIs, OSPF, eBGP, for branch connectivity</li>
+        <li>Implemented LACP/PAgP EtherChannel, VTP, SSH, and VPN-based remote access, then tested and troubleshot end-to-end network connectivity</li>
+        </ul>
+        </div>
+       
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="text-center fw-bold">TCP Chat Application</h5>
+          <h6 class="text-center">Python</h6>
+            <ul>
+            <li>Developed a multi-client TCP messaging application in Python using socket programming and client-server architecture for real-time communication</li>
+            <li>Implemented multithreading, thread synchronization, and locks to safely manage multiple TCP connections while preventing race conditions</li>
+            <li>Implemented usernames, message broadcasting, command-based communication, and connection/error handling for client disconnections and network failures</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</main>
+
+
+<%- include partials/footer.ejs %>
+
